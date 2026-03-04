@@ -4,6 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Steep Society | Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
   </head>
-  <body></body>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="index.html">The Steep Society</a>
+        <ul class="nav-links">
+          <li><a href="products.html">Blends</a></li>
+          <li>
+            <a href="cart.html"
+              >Cart <span id="cartCount" class="badge">0</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <h1>Your Cart</h1>
+
+      <section id="cartView" class="cart" aria-label="Shopping cart"></section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> The Steep Society</p>
+    </footer>
+  </body>
 </html>
