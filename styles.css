@@ -45,10 +45,10 @@ body {
   gap: 16px;
 }
 
-.brand {
-  font-weight: 700;
-  text-decoration: none;
-  color: inherit;
+.brand img {
+  height: 30px;
+  width: auto;
+  display: block;
 }
 
 .nav-links {
