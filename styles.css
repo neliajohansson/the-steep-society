@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url("fonts/GlacialIndifference-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url("fonts/GlacialIndifference-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 /* Base reset */
 * {
   box-sizing: border-box;
@@ -8,7 +22,7 @@ body {
   padding: 0;
 }
 body {
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: "Glacial Indifference", Arial, sans-serif;
   line-height: 1.5;
   color: #1b1b1b;
   background: #fafafa;
@@ -81,10 +95,15 @@ body {
 }
 
 .hero {
-  background: #ffffff;
-  border: 1px solid #eaeaea;
-  border-radius: 18px;
-  padding: 22px;
+  background-image: url("Images/20250525_1924_Realistic\ Tea\ Package\ Mockup_remix_01jw47g0scf5wv7pse04tc3120.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+
+  padding: 200px;
+  text-align: center;
 }
 .btn {
   display: inline-block;
