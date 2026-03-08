@@ -31,7 +31,7 @@ body {
 .container {
   width: min(1100px, 92vw);
   margin: 0 auto;
-  padding: 24px 0;
+  padding: 10px 0;
 }
 
 .site-header,
@@ -45,7 +45,7 @@ body {
 }
 .site-footer p {
   margin: 0;
-  padding: 18px 0;
+  padding: 40px 0;
   text-align: center;
 }
 
@@ -70,7 +70,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 14px;
+  gap: 15px;
 }
 .nav-links a {
   text-decoration: none;
@@ -99,23 +99,32 @@ body {
     url("Images/20250525_1924_Realistic\ Tea\ Package\ Mockup_remix_01jw47g0scf5wv7pse04tc3120.png");
   background-size: cover;
   background-position: center;
-  min-height: 60vh;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  min-height: 70vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   color: white;
-  padding: 200px;
   text-align: center;
 }
+
+.hero-content {
+  width: min(1100px, 90%);
+}
+
 .btn {
   display: inline-block;
   margin-top: 12px;
-  padding: 10px 14px;
-  border-radius: 12px;
-  background: #1b1b1b;
-  color: #ffffff;
+  padding: 15px 30px;
+  background: #ffffff;
+  color: #1b1b1b;
+  border-radius: 30px;
   text-decoration: none;
+  width: fit-content;
+  align-self: center;
 }
 
 .muted {
