@@ -8,7 +8,7 @@ const PRODUCTS = [
     subtitle: "The Highland Wanderer",
     notes: "Earthy, floral, lightly smoked — with grounding elderflower.",
     price: 109,
-    image: "Images/IMG_8347.JPG",
+    image: "Images/juniper.JPG", // Original illustration
   },
   {
     id: "marigold-01",
@@ -16,7 +16,7 @@ const PRODUCTS = [
     subtitle: "The Golden Trickster",
     notes: "Citrusy, vibrant, spiced — a spirited twist on Darjeeling.",
     price: 109,
-    image: "Images/IMG_8349.JPG",
+    image: "Images/marigold.JPG", // Original illustration
   },
   {
     id: "nocturne-01",
@@ -24,7 +24,7 @@ const PRODUCTS = [
     subtitle: "The Velvet Oracle",
     notes: "Calming, creamy, floral — a soothing herbal night blend.",
     price: 109,
-    image: "Images/IMG_8345.JPG",
+    image: "Images/nocturne.JPG", // Original illustration
   },
   {
     id: "camellia-01",
@@ -32,39 +32,40 @@ const PRODUCTS = [
     subtitle: "The Garden Poet",
     notes: "Delicate, floral, slightly spiced — an elegant white tea.",
     price: 109,
-    image: "Images/The Steep Society 3.PNG",
+    image: "Images/camellia.PNG", // Original illustration
   },
   {
-    id: "id-05",
-    name: "Name 5",
-    subtitle: "Subtitle 5",
-    notes: "Description 5.",
+    id: "wisteria-01",
+    name: "Lady Wisteria White",
+    subtitle: "The Quiet Aristocrat",
+    notes: "Floral, delicate, softly sweet — an ethereal take on white tea.",
     price: 109,
-    image: "",
+    image: "Images/wisteria.jpg", // AI generated example image
   },
   {
-    id: "id-06",
-    name: "Name 6",
-    subtitle: "Subtitle 6",
-    notes: "Description 6.",
+    id: "bergamot-01",
+    name: "Madam Bergamot Grey",
+    subtitle: "The Afternoon Hostess",
+    notes:
+      "Citrusy, refined, gently floral — and elegant Earl Grey with character.",
     price: 109,
-    image: "",
+    image: "Images/bergamot.jpg", // AI generated example image
   },
   {
-    id: "id-07",
-    name: "Name 7",
-    subtitle: "Subtitle 7",
-    notes: "Description 7.",
+    id: "jasmine-01",
+    name: "Lady Jasmine Vale",
+    subtitle: "The Graceful Diplomat",
+    notes: "Fragrant, smooth, lightly sweet — a graceful jasmine green.",
     price: 109,
-    image: "",
+    image: "Images/jasmine.jpg", // AI generated example image
   },
   {
-    id: "id-08",
-    name: "Name 8",
-    subtitle: "Subtitle 8",
-    notes: "Description 8.",
+    id: "honeybloom-01",
+    name: "Miss Honeybloom",
+    subtitle: "The Warm Hostess",
+    notes: "Honeyed, mellow, softly floral — a comforting rooibos embrace.",
     price: 109,
-    image: "",
+    image: "Images/honeybloom.jpg", // AI generated example image
   },
 ];
 
