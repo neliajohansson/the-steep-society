@@ -171,21 +171,20 @@ function renderProductDetail() {
   document.title = `The Steep Society | ${product.name}`;
 
   detailEl.innerHTML = `
-  <img class="product-detail-image"
-       src="${product.image}"
-       alt="${product.name} tea blend">
+    <img class="product-detail-image"
+         src="${product.image}"
+         alt="${product.name} tea blend">
 
-  <h1>${product.name}</h1>
-  <p class="muted">${product.subtitle}</p>
-
-  <p>${product.notes}</p>
-
-  <p><strong>${formatPrice(product.price)}</strong></p>
-
-  <button class="button primary" id="addDetail">
-    Add to cart
-  </button>
-`;
+    <div class="product-detail-copy">
+      <h1>${product.name}</h1>
+      <p class="muted">${product.subtitle}</p>
+      <p>${product.notes}</p>
+      <p><strong>${formatPrice(product.price)}</strong></p>
+      <button class="button primary" id="addDetail">
+        Add to cart
+      </button>
+    </div>
+  `;
 
   const addBtn = document.getElementById("addDetail");
   addBtn.addEventListener("click", () => addToCart(product.id));
