@@ -78,6 +78,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 .brand img {
@@ -91,8 +92,10 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 15px;
+  gap: 12px;
+  flex-wrap: wrap;
 }
+
 .nav-links a {
   text-decoration: none;
   color: var(--text);
